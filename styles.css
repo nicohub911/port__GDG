@@ -1,0 +1,13 @@
+.cabecera{width: 100%; height: 100vh; height: 100dvh; position: relative;}
+.cabecera img{position: absolute; width: 100%; height: 100%;}
+#cabecera__galaxia{z-index: 1;}
+#cabecera__nebula{z-index: 2;}
+#cabecera__logo{z-index: 3;}
+#cabecera__groot{z-index: 4;}
+#cabecera__niebla{z-index: 5;}
+#cabecera__mantis{z-index: 6;}
+#cabecera__gamora{z-index: 7;}
+#cabecera__drax{z-index: 8;}
+#cabecera__quill{z-index: 9;}
+#cabecera__rocket{z-index: 10;}
+#cabecera__suelo{z-index: 11;}
