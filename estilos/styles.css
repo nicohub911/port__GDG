@@ -1,0 +1,14 @@
+.cabecera{width: 100%; height: 100vh; height: 100dvh; position: relative; overflow: hidden;}
+.cabecera img{position: absolute; top: 50%; left: 50%; height: 100%;}
+#cabecera__galaxia{z-index: 1; top: 0px; left: 0px; width: 100%;}
+#cabecera__nebula{z-index: 2; width: 100%;}
+#cabecera__logo{z-index: 3; width: 100%;}
+#cabecera__groot{z-index: 4; width: 100%;}
+#cabecera__niebla{z-index: 5; top: 0px; left: 0px; width: 100%;}
+#cabecera__mantis{z-index: 6; width: 100%; top: 52%;}
+#cabecera__gamora{z-index: 7; width: 100%;}
+#cabecera__drax{z-index: 8; width: 100%;}
+#cabecera__quill{z-index: 9; width: 100%;}
+#cabecera__rocket{z-index: 10; width: 100%;}
+#cabecera__suelo{z-index: 11; top: 70%; width: 5000px;}
+.cabecera__sombra{z-index: 12; position: absolute; width: 100%; height: 100%; background: radial-gradient(ellipse at center, rgba(0,0,0,0) 60%, rgba(0,0,0,1));}
