@@ -1,14 +1,35 @@
-.cabecera{width: 100%; height: 100vh; height: 100dvh; position: relative; overflow: hidden;}
+*{scroll-behavior: smooth;}
+body{width: 100%; height: 500vh; overflow-x: hidden; overflow-y: hidden; background-color: #000;}
+
+.pantallaCarga{background: #bdbdbd; height: 100vh; height: 100dvh; width: 100%; position: absolute; top: 0px; left: 0px; display: flex; justify-content: center; align-items: center; z-index: 950; transition: opacity 0.3s;}
+.pantallaCarga__texto{color: #000; font-size: 20px; font-family: 'Space Mono', monospace; user-select: none;}
+
+/*_________________________________________________________________________________CABECERA_________________________________________________________________________________*/
+
+.cabecera{width: 300%; height: calc(100vh + 4px); height:calc(100dvh + 4px); position: relative; overflow: hidden; margin-left: -100%; border-bottom: 4px solid #ffcf32;}
 .cabecera img{position: absolute; top: 50%; left: 50%; height: 100%;}
-#cabecera__galaxia{z-index: 1; top: 0px; left: 0px; width: 100%;}
-#cabecera__nebula{z-index: 2; width: 100%;}
-#cabecera__logo{z-index: 3; width: 100%;}
-#cabecera__groot{z-index: 4; width: 100%;}
-#cabecera__niebla{z-index: 5; top: 0px; left: 0px; width: 100%;}
-#cabecera__mantis{z-index: 6; width: 100%; top: 52%;}
-#cabecera__gamora{z-index: 7; width: 100%;}
-#cabecera__drax{z-index: 8; width: 100%;}
-#cabecera__quill{z-index: 9; width: 100%;}
-#cabecera__rocket{z-index: 10; width: 100%;}
-#cabecera__suelo{z-index: 11; top: 70%; width: 5000px;}
-.cabecera__sombra{z-index: 12; position: absolute; width: 100%; height: 100%; background: radial-gradient(ellipse at center, rgba(0,0,0,0) 60%, rgba(0,0,0,1));}
+#cabecera__galaxia{z-index: 1; top: 0px; left: 33%; width: 34%;}
+#cabecera__nebula{z-index: 2; width: 34%;}
+#cabecera__logo{z-index: 3; width: 34%;}
+#cabecera__groot{z-index: 4; width: 34%;}
+#cabecera__niebla{z-index: 5; top: 0px; left: 33%; width: 34%;}
+#cabecera__mantis{z-index: 6; width: 34%; top: 52%;}
+#cabecera__gamora{z-index: 7; width: 34%;}
+#cabecera__drax{z-index: 8; width: 34%;}
+#cabecera__quill{z-index: 9; left: 46%; width: 34%;}
+#cabecera__rocket{z-index: 10; width: 34%;}
+#cabecera__suelo{z-index: 11; top: 70%; width: 50%;}
+.cabecera__sombra{z-index: 12; position: absolute; width: 34%; left: 33%; height: 100%; background: radial-gradient(ellipse at center, rgba(0,0,0,0) 40%, rgba(0,0,0,1));}
+
+/*_________________________________________________________________________________NAVEGADOR_________________________________________________________________________________*/
+
+.navegador{clip-path: polygon(0 0, 100% 0, 95% 50%, 85% 100%, 15% 100%, 5% 50%); position:sticky; background-color: #202020; height: 50px; top: 0px; width: 100%;  left: 0px; box-shadow: 5px 0px 10px #000; display: flex; justify-content: center; scroll-behavior: smooth; z-index: 900;}
+.navegador__lista{list-style: none; display: flex; align-items: center; height: 100%;}
+.navegador__lista li{min-width: 100px; text-align: center;}
+.navegador__lista__elemento{text-decoration: none; font-family: 'Nabla', cursive; font-size: 20px; letter-spacing: 2px; transition: font-size 0.2s; user-select: none;}
+.navegador__lista__elemento:hover{font-size: 22px;}
+.navegador__lista__elemento:active{font-size: 20px;}
+.navegador__lista__elemento__img{height: 40px;}
+
+main{height: 100px;}
+
